@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: cineengine-ml
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /api/health
+    autoDeploy: true
